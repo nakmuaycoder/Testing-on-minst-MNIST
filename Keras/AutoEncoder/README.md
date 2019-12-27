@@ -14,6 +14,7 @@ Create a projection of mnist in a 16 dimensions space, then recreate it from the
 
 ## Use an autoencoder to remove the noise of a mnist digit
 
+Alter minst digits quality by adding noise, then train an autoencoder to regenerate the the original digit from the altered version.
 [jupyter notebook](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/Keras/AutoEncoder/DenoisingAutoEncoder.ipynb)
 
 ![alt text](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/img/denoiser_generated1.png)
