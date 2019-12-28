@@ -1,17 +1,17 @@
-# Variational Autoencoder [A reprendre et finir]
+# Variational Autoencoder
 
 
 
 ## About Variational Autoencoder
 
-This model is as an autoencoder, have an encoder <img src="https://render.githubusercontent.com/render/math?math=\mathcal{Q}: \mathcal{D} \mapsto \mathcal{Z}"> and a decoder <img src="https://render.githubusercontent.com/render/math?math=\mathcal{P}: \mathcal{Z} \mapsto \mathcal{D}"> and  <img src="https://render.githubusercontent.com/render/math?math=\forall x \in \mathcal{D},  x \sim \mathcal{P} \circ \mathcal{Q} (x)"> <br>
+This model is similar to an autoencoder, and is made of an encoder <img src="https://render.githubusercontent.com/render/math?math=\mathcal{Q}: \mathcal{D} \mapsto \mathcal{Z}"> and a decoder <img src="https://render.githubusercontent.com/render/math?math=\mathcal{R}: \mathcal{Z} \mapsto \mathcal{D}"> and  <img src="https://render.githubusercontent.com/render/math?math=\forall x \in \mathcal{D},  x \sim \mathcal{R} \circ \mathcal{Q} (x)"> <br>
 
-<img src="https://render.githubusercontent.com/render/math?math=\forall x \in \mathcal{D},  x \sim \mathcal{P} \circ \mathcal{Q} (x)"> 
+<img src="https://render.githubusercontent.com/render/math?math=\forall x \in \mathcal{D},  x \sim \mathcal{R} \circ \mathcal{Q} (x) = \mathcal{P}"> 
 
 and an encoder 
 <img src="https://render.githubusercontent.com/render/math?math=\mathcal{Q}">  where  <img src="https://render.githubusercontent.com/render/math?math=\forall x \in \mathcal{D}, \exists z \in \mathcal{z} / \mathcal{Q} (x) = z">
 
-<img src="https://render.githubusercontent.com/render/math?math=\mathcal{P}_\theta (x) = \int_{z} \mathcal{P}_{\theta}(x,z)dz "> using Bayes theorem <img src="https://render.githubusercontent.com/render/math?math=\mathcal{P}_\theta (x) = \int_{z} \mathcal{P}_{\theta}(x | z)\mathcal{P}(z)dz  ">
+<img src="https://render.githubusercontent.com/render/math?math=\mathcal{P}_\theta (x) = \int_{\mathcal{Z}} \mathcal{P}_{\theta}(x,z) "> using Bayes theorem <img src="https://render.githubusercontent.com/render/math?math=\mathcal{P}_\theta (x) = \int_{\mathcal{Z}} \mathcal{P}_{\theta}(x | z)\mathcal{P}(z)">
 
 
 
