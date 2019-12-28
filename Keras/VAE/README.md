@@ -4,8 +4,8 @@
 
 ## About Variational Autoencoder
 
-This model is similar to an autoencoder, and is made of an encoder <img src="https://render.githubusercontent.com/render/math?math=\mathcal{Q}: \mathcal{D} \mapsto \mathcal{Z}"> and a decoder <img src="https://render.githubusercontent.com/render/math?math=\mathcal{P}: \mathcal{Z} \mapsto \mathcal{D}"> and  
-<img src="https://render.githubusercontent.com/render/math?math=\forall x \in \mathcal{D},  x \sim \mathcal{P} \circ \mathcal{Q} (x)"> 
+This model is similar to an autoencoder, and is made of an encoder <img src="https://render.githubusercontent.com/render/math?math=\mathcal{Q}: \mathcal{D} \mapsto \mathcal{Z}"> and a decoder <img src="https://render.githubusercontent.com/render/math?math=\mathcal{R}: \mathcal{Z} \mapsto \mathcal{D}"> and  
+<img src="https://render.githubusercontent.com/render/math?math=\forall x \in \mathcal{D},  x \sim \mathcal{P}(x) = \mathcal{R} \circ \mathcal{Q} (x)"> 
 
 and a latent vector <img src="https://render.githubusercontent.com/render/math?math=z">
 <img src="https://render.githubusercontent.com/render/math?math=\mathcal{Q}">  where  <img src="https://render.githubusercontent.com/render/math?math=\forall x \in \mathcal{D}, \exists z \in \mathcal{z} / \mathcal{Q} (x) = z">
