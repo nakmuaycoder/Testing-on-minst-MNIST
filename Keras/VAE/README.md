@@ -25,12 +25,12 @@ The loss function of a VAE has 2 parts:
 ## Multilayer Perceptron Variational Autoencoder
 
 ![alt text](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/img/vae-mlp.jpg)
+[Link MLP_VAE](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/Keras/VAE/MultiLayersPerceptron-VariationalAautoEncoder.ipynb)
 
-
-### Convolutional Variational Autoencoder
+## Convolutional Variational Autoencoder
 ![alt text](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/img/vae_cnn.jpg)
+[Link CNN_VAE](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/Keras/VAE/CNN-VariationalAautoEncoder.ipynb)
 
-
-### Conditional Variational Autoencoder
+## Conditional Variational Autoencoder
 ![alt text](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/img/vae_cond.jpg)
-
+[Link CVAE](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/Keras/VAE/Conditionnal-VariationalAautoEncoder.ipynb)
