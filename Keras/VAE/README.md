@@ -18,7 +18,7 @@ The aim of the training is estimating <img src="https://render.githubusercontent
 ### Loss function
 
 The loss function of a VAE has 2 parts:
-- The reconstruction loss that measure the distance between the input and the output of the VAE ( MSE; Binary Cross Entropy)
+- The Reconstruction loss that measure the distance between the input and the output of the VAE ( MSE; Binary Cross Entropy)
 - The Kullback-Leibler (KL) divergence measuring the distance between <img src="https://render.githubusercontent.com/render/math?math=\mathcal{Q}(z|x)"> and <img src="https://render.githubusercontent.com/render/math?math=\mathcal{P}(z|x)"> 
 
 
@@ -32,5 +32,17 @@ The loss function of a VAE has 2 parts:
 [Link CNN_VAE](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/Keras/VAE/CNN-VariationalAautoEncoder.ipynb)
 
 ## Conditional Variational Autoencoder
+
+### Model
 ![alt text](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/img/vae_cond.jpg)
 [Link CVAE](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/Keras/VAE/Conditionnal-VariationalAautoEncoder.ipynb)
+
+### Impact of <img src="https://render.githubusercontent.com/render/math?math=\beta"> parametre on the output
+
+Let's see the impact of KL on the global loss.
+VAE_Loss = <img src="https://render.githubusercontent.com/render/math?math=\beta \cdot"> KL_Loss + Reconstruction
+
+![](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/img/CVAE/LatentSpace.gif)
+
+![](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/img/CVAE/digit0.gif)![](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/img/CVAE/digit1.gif)
+![](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/img/CVAE/digit2.gif)![](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/img/CVAE/digit3.gif)
