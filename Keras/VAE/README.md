@@ -26,4 +26,5 @@ The during the training, estimate <img src="https://render.githubusercontent.com
 
 
 ### Conditional Variational Autoencoder
+![alt text](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/img/vae_cond.jpg)
 
