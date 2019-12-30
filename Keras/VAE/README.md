@@ -9,12 +9,9 @@ A Variational Autoencoder <img src="https://render.githubusercontent.com/render/
 
 <img src="https://render.githubusercontent.com/render/math?math=\mathcal{P}_\theta (x) = \int_{\mathcal{Z}} \mathcal{P}_{\theta}(x,z) "> using Bayes theorem <img src="https://render.githubusercontent.com/render/math?math=\mathcal{P}_\theta (x) = \int_{\mathcal{Z}} \mathcal{P}_{\theta}(x | z)\mathcal{P}(z)=\int_{\mathcal{Z}} \mathcal{P}_{\theta}(z | x)\mathcal{P}(x)"><br>
 
-<img src="https://render.githubusercontent.com/render/math?math=\mathcal{Q}(z|x) = \mathcal{P}(z|x) ">
-
-
 <img src="https://render.githubusercontent.com/render/math?math=\mathcal{Q}(z|x)"> is chosen to be gaussian: <img src="https://render.githubusercontent.com/render/math?math=\mathcal{Q}(z|x) \sim \mathcal{N}(\mu(x),\sigma(x)\mathbb{I})">
 
-The during the training, estimate <img src="https://render.githubusercontent.com/render/math?math=\mathcal{Q}_{\phi}"> and <img src="https://render.githubusercontent.com/render/math?math=\mathcal{P}_{\theta}">
+The aim of the training is estimating <img src="https://render.githubusercontent.com/render/math?math=(\phi,\theta)"> where <img src="https://render.githubusercontent.com/render/math?math=\mathcal{Q}_{\phi}(z|x) \approx \mathcal{P}_{\theta}(z|x) ">
 
 ## Multilayer Perceptron Variational Autoencoder
 
