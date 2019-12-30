@@ -2,7 +2,7 @@
 
 
 
-## About Variational Autoencoder [Pas fini]
+## About Variational Autoencoder
 
 ### Network Architecture
 
