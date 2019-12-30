@@ -1,0 +1,5 @@
+python Conditionnal-VariationalAautoEncoder-impactbeta.py 5
+python Conditionnal-VariationalAautoEncoder-impactbeta.py 1
+python Conditionnal-VariationalAautoEncoder-impactbeta.py 8
+python Conditionnal-VariationalAautoEncoder-impactbeta.py 20
+python generateGIF.py
