@@ -39,6 +39,8 @@ The loss function of a VAE has 2 parts:
 
 ### Impact of <img src="https://render.githubusercontent.com/render/math?math=\beta"> parametre on the output
 
+Run launch.bat
+
 Let's see the impact of KL on the global loss.
 VAE_Loss = <img src="https://render.githubusercontent.com/render/math?math=\beta \cdot"> KL_Loss + Reconstruction
 
