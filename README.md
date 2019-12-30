@@ -15,4 +15,6 @@ Most of those scripts are from course found on the internet or from example from
 
 ### Variational Autoencoder (VAE)
 
+[link VAE](https://github.com/nakmuayFarang/start-with-MNIST/tree/master/Keras/VAE)
+
 ### GAN
