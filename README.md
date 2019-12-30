@@ -18,3 +18,5 @@ Most of those scripts are from course found on the internet or from example from
 [link VAE](https://github.com/nakmuayFarang/start-with-MNIST/tree/master/Keras/VAE)
 
 ### GAN
+
+[Link_GAN](https://github.com/nakmuayFarang/start-with-MNIST/tree/master/Keras/GAN)
