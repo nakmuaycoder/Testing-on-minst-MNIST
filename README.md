@@ -1,6 +1,4 @@
 # MNIST
-The beginning of my ML AI journey!
-
 Testing advanced model with MNIST dataset
 
 Most of those scripts are from course found on the internet or from example from books.
