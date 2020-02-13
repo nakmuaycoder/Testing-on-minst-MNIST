@@ -11,7 +11,10 @@
 ## Least Squares Generative Adversarial Networks: LSGAN
 
 ![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/lsgan.gif)
-## Conditional Generative Adversial Network
+## Conditional Generative Adversial Network: cGAN
 
 
 ![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/cgan.gif)
+
+
+## Auxiliary classifier GAN: ACGAN
