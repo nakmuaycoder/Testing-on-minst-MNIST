@@ -18,3 +18,4 @@
 
 
 ## Auxiliary classifier GAN: ACGAN
+![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/ACGAN.gif)
