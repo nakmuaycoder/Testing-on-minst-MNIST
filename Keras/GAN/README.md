@@ -19,7 +19,7 @@
 
 ### About LSGAN
 LSGAN is a DACGAN where the loss is the Mean Square Error (MSE) <br>
-<img src='https://render.githubusercontent.com/render/math?math=$\sum_{i \in \mathcal{I} } ( x_{i} - \hat{x}_{i} )^{2}$'>
+<img src='https://render.githubusercontent.com/render/math?math=$ \displaystyle \sum_{i \in \mathcal{I} } ( x_{i} - \hat{x}_{i} )^{2}$'>
 
 
 ### Evolution of the generated digits over the training epochs 
