@@ -6,7 +6,7 @@
 ### The adversial for Mnist dataset
 ![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/dcgan.jpg)
 
-### DCGAN training step
+### DCGAN training steps
 ![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/dcgan2.jpg)
 
 ### Evolution of the generated digits over the training epochs 
@@ -14,7 +14,18 @@
 
 ## Wasserstein GAN: WCGAN
 
+
+### The adversial for Mnist dataset
+![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/wgan2.jpg)
+
+### WCGAN training steps
+![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/wgan1.jpg)
+
+### Evolution of the generated digits over the training epochs 
 ![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/wgan.gif)
+
+
+
 ## Least Squares Generative Adversarial Networks: LSGAN
 
 ### About LSGAN
@@ -24,6 +35,9 @@ LSGAN is a DACGAN where the loss is the Mean Square Error (MSE) <br>
 
 ### Evolution of the generated digits over the training epochs 
 ![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/lsgan.gif)
+
+
+
 ## Conditional Generative Adversial Network: cGAN
 
 
