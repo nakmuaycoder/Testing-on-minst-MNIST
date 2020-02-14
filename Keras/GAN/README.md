@@ -1,9 +1,10 @@
 # GAN
 
 
+
 ## Deep Convolutional Generative Adversarial Network: DCGAN
 
-### The adversial for Mnist dataset
+### DCGAN, Adversial model used on Mnist dataset
 ![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/dcgan.jpg)
 
 ### DCGAN training steps
@@ -12,10 +13,25 @@
 ### Evolution of the generated digits over the training epochs 
 ![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/dcgan.gif)
 
+
+
+## Least Squares Generative Adversarial Networks: LSGAN
+
+### About LSGAN
+LSGAN is a DACGAN where the loss is the Mean Square Error (MSE) instead of binary_crossentropy <br>
+<br>
+ <img src='https://render.githubusercontent.com/render/math?math=$ \displaystyle MSE( x,\hat{x}) = \sum_{i \in \mathcal{I} } ( x_{i} - \hat{x}_{i} )^{2}$'>
+
+
+
+### Evolution of the generated digits over the training epochs 
+![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/lsgan.gif)
+
+
+
 ## Wasserstein GAN: WCGAN
 
-
-### The adversial for Mnist dataset
+### The adversial model for Mnist dataset
 ![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/wgan2.jpg)
 
 ### WCGAN training steps
@@ -26,23 +42,18 @@
 
 
 
-## Least Squares Generative Adversarial Networks: LSGAN
-
-### About LSGAN
-LSGAN is a DACGAN where the loss is the Mean Square Error (MSE) <br>
-<img src='https://render.githubusercontent.com/render/math?math=$ \displaystyle \sum_{i \in \mathcal{I} } ( x_{i} - \hat{x}_{i} )^{2}$'>
-
-
-### Evolution of the generated digits over the training epochs 
-![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/lsgan.gif)
-
-
 
 ## Conditional Generative Adversial Network: cGAN
 
+### The adversial model for Mnist dataset
+![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/cgan.jpg)
 
+### Evolution of the generated digits over the training epochs 
 ![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/cgan.gif)
 
 
 ## Auxiliary classifier GAN: ACGAN
+
+
+### Evolution of the generated digits over the training epochs 
 ![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/ACGAN.gif)
