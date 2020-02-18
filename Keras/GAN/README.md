@@ -5,13 +5,13 @@
 ## Deep Convolutional Generative Adversarial Network: DCGAN
 
 ### DCGAN, Adversial model used on Mnist dataset
-![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/dcgan.jpg)
+![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/tree/master/img/GAN/dcgan.jpg)
 
 ### DCGAN training steps
-![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/dcgan2.jpg)
+![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/tree/master/img/GAN/dcgan2.jpg)
 
 ### Evolution of the generated digits over the training epochs 
-![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/dcgan.gif)
+![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/tree/master/img/GAN/dcgan.gif)
 
 
 
@@ -25,20 +25,20 @@ LSGAN is a DACGAN where the loss is the Mean Square Error (MSE) instead of binar
 
 
 ### Evolution of the generated digits over the training epochs 
-![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/lsgan.gif)
+![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/tree/master/img/GAN/lsgan.gif)
 
 
 
 ## Wasserstein GAN: WCGAN
 
 ### The adversial model for Mnist dataset
-![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/wgan2.jpg)
+![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/tree/master/img/GAN/wgan2.jpg)
 
 ### WCGAN training steps
-![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/wgan1.jpg)
+![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/tree/master/img/GAN/wgan1.jpg)
 
 ### Evolution of the generated digits over the training epochs 
-![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/wgan.gif)
+![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/tree/master/img/GAN/wgan.gif)
 
 
 
@@ -46,17 +46,17 @@ LSGAN is a DACGAN where the loss is the Mean Square Error (MSE) instead of binar
 ## Conditional Generative Adversial Network: cGAN
 
 ### The adversial model for Mnist dataset
-![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/cgan.jpg)
+![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/tree/master/img/GAN/cgan.jpg)
 
 ### Evolution of the generated digits over the training epochs 
-![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/cgan.gif)
+![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/tree/master/img/GAN/cgan.gif)
 
 
 ## Auxiliary classifier GAN: ACGAN
 
 ### The adversial model for Mnist dataset
-![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/acgan.jpg)
+![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/tree/master/img/GAN/acgan.jpg)
 
 
 ### Evolution of the generated digits over the training epochs 
-![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/GAN/ACGAN.gif)
+![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/tree/master/img/GAN/ACGAN.gif)
