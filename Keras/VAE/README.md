@@ -24,18 +24,18 @@ The loss function of a VAE has 2 parts:
 
 ## Multilayer Perceptron Variational Autoencoder
 
-![alt text](https://github.com/nakmuaycoder/start-with-MNIST/blob/master/img/vae-mlp.jpg)
-[Link MLP_VAE](https://github.com/nakmuaycoder/start-with-MNIST/blob/master/Keras/VAE/MultiLayersPerceptron-VariationalAautoEncoder.ipynb)
+![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/blob/master/img/vae-mlp.jpg)
+[Link MLP_VAE](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/blob/master/Keras/VAE/MultiLayersPerceptron-VariationalAautoEncoder.ipynb)
 
 ## Convolutional Variational Autoencoder
-![alt text](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/img/vae_cnn.jpg)
-[Link CNN_VAE](https://github.com/nakmuaycoder/start-with-MNIST/blob/master/Keras/VAE/CNN-VariationalAautoEncoder.ipynb)
+![alt text](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/img/vae_cnn.jpg)
+[Link CNN_VAE](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/blob/master/Keras/VAE/CNN-VariationalAautoEncoder.ipynb)
 
 ## Conditional Variational Autoencoder
 
 ### Model
-![alt text](https://github.com/nakmuaycoder/start-with-MNIST/blob/master/img/vae_cond.jpg)
-[Link CVAE](https://github.com/nakmuayFarang/start-with-MNIST/blob/master/Keras/VAE/Conditionnal-VariationalAautoEncoder.ipynb)
+![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/blob/master/img/vae_cond.jpg)
+[Link CVAE](https://github.com/nakmuayFarang/Testing-on-minst-MNIST/blob/master/Keras/VAE/Conditionnal-VariationalAautoEncoder.ipynb)
 
 ### Impact of <img src="https://render.githubusercontent.com/render/math?math=\beta"> parametre on the output
 
@@ -44,7 +44,7 @@ Run launch.bat
 Let's see the impact of KL on the global loss.
 VAE_Loss = <img src="https://render.githubusercontent.com/render/math?math=\beta \cdot"> KL_Loss + Reconstruction
 
-![](https://github.com/nakmuaycoder/start-with-MNIST/blob/master/img/CVAE/LatentSpace.gif)
+![](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/blob/master/img/CVAE/LatentSpace.gif)
 
-![](https://github.com/nakmuaycoder/start-with-MNIST/blob/master/img/CVAE/digit0.gif)![](https://github.com/nakmuaycoder/start-with-MNIST/blob/master/img/CVAE/digit1.gif)
-![](https://github.com/nakmuaycoder/start-with-MNIST/blob/master/img/CVAE/digit2.gif)![](https://github.com/nakmuaycoder/start-with-MNIST/blob/master/img/CVAE/digit3.gif)
+![](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/blob/master/img/CVAE/digit0.gif)![](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/blob/master/img/CVAE/digit1.gif)
+![](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/blob/master/img/CVAE/digit2.gif)![](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/blob/master/img/CVAE/digit3.gif)
