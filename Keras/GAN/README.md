@@ -60,3 +60,12 @@ LSGAN is a DACGAN where the loss is the Mean Square Error (MSE) instead of binar
 
 ### Evolution of the generated digits over the training epochs 
 ![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/blob/master/img/GAN/ACGAN.gif)
+
+
+
+### InfoGAN
+
+### Evolution of the generated digits over the training epochs 
+![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/blob/master/img/GAN/InfoGAN.gif)
+
+
