@@ -1,5 +1,5 @@
 # MNIST
-Testing advanced model with MNIST dataset
+Testing advanced model on MNIST dataset
 
 Most of those scripts are from course found on the internet or from example from books.
 
