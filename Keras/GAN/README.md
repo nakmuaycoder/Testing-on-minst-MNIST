@@ -73,3 +73,13 @@ LSGAN is a DACGAN where the loss is the Mean Square Error (MSE) instead of binar
 
 ### Impact of X on the generator
 ![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/blob/master/img/GAN/allDigits.png)
+
+
+
+### StackedGAN
+
+### Evolution of the generated digits over the training epochs 
+![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/blob/master/img/GAN/StackedGAN.gif)
+
+
+
