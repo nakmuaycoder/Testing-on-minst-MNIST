@@ -90,12 +90,6 @@ LSGAN is a DACGAN where the loss is the Mean Square Error (MSE) instead of binar
 ![alt_text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/blob/master/img/GAN/stackedgan_generator.jpg)
 
 
-### Training step
-
-
-
-#### Discriminator Training
-#### Generator Training
 
 ### Evolution of the generated digits over the training epochs 
 ![alt text](https://github.com/nakmuaycoder/Testing-on-minst-MNIST/blob/master/img/GAN/StackedGAN.gif)
